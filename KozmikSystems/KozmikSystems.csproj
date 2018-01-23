@@ -212,7 +212,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NavbarsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
-    <Compile Include="Domain\Data.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -223,6 +222,10 @@
     <Compile Include="Migrations\201801231405166_AddedNavBarClass.cs" />
     <Compile Include="Migrations\201801231405166_AddedNavBarClass.Designer.cs">
       <DependentUpon>201801231405166_AddedNavBarClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801231443126_NavBarTableElements.cs" />
+    <Compile Include="Migrations\201801231443126_NavBarTableElements.Designer.cs">
+      <DependentUpon>201801231443126_NavBarTableElements.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -1050,6 +1053,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801231405166_AddedNavBarClass.resx">
       <DependentUpon>201801231405166_AddedNavBarClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801231443126_NavBarTableElements.resx">
+      <DependentUpon>201801231443126_NavBarTableElements.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
