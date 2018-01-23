@@ -212,6 +212,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NavbarsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Domain\Data.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -226,6 +227,18 @@
     <Compile Include="Migrations\201801231443126_NavBarTableElements.cs" />
     <Compile Include="Migrations\201801231443126_NavBarTableElements.Designer.cs">
       <DependentUpon>201801231443126_NavBarTableElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801231519423_NavBarTableRemovedRow.cs" />
+    <Compile Include="Migrations\201801231519423_NavBarTableRemovedRow.Designer.cs">
+      <DependentUpon>201801231519423_NavBarTableRemovedRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801231521420_NavBarTableMadeAdjustments.cs" />
+    <Compile Include="Migrations\201801231521420_NavBarTableMadeAdjustments.Designer.cs">
+      <DependentUpon>201801231521420_NavBarTableMadeAdjustments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801231705124_CleanedUserTable.cs" />
+    <Compile Include="Migrations\201801231705124_CleanedUserTable.Designer.cs">
+      <DependentUpon>201801231705124_CleanedUserTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -1056,6 +1069,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801231443126_NavBarTableElements.resx">
       <DependentUpon>201801231443126_NavBarTableElements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801231519423_NavBarTableRemovedRow.resx">
+      <DependentUpon>201801231519423_NavBarTableRemovedRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801231521420_NavBarTableMadeAdjustments.resx">
+      <DependentUpon>201801231521420_NavBarTableMadeAdjustments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801231705124_CleanedUserTable.resx">
+      <DependentUpon>201801231705124_CleanedUserTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

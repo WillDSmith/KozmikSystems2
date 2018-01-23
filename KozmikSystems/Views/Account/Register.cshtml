@@ -9,20 +9,23 @@
     @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
     {
         @Html.AntiForgeryToken()
-        <div class="body bg-gray">
-            <div class="form-group">
-                <input type="text" name="fullname" class="form-control" placeholder="Full name" />
-            </div>
-            <div class="form-group">
-                <input type="text" name="email" class="form-control" placeholder="Email" />
-            </div>
-            <div class="form-group">
-                <input type="password" name="password" class="form-control" placeholder="Password" />
-            </div>
-            <div class="form-group">
-                <input type="password" name="confirmpassword" class="form-control" placeholder="Retype password" />
-            </div>
+    <div class="body bg-gray">
+        <div class="form-group">
+            <input type="text" name="fullname" class="form-control" placeholder="Full Name" />
         </div>
+        <div class="form-group">
+            <input type="text" name="username" class="form-control" placeholder="User Name" />
+        </div>
+        <div class="form-group">
+            <input type="text" name="email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="form-group">
+            <input type="password" name="confirmpassword" class="form-control" placeholder="Retype password" />
+        </div>
+    </div>
         <div class="footer">
             <button type="submit" class="btn bg-olive btn-block">Sign me up</button>
             <a href="@Url.Action("Login", "Account")" class="text-center">I already have a membership</a>
